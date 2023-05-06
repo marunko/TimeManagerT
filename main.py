@@ -2,11 +2,16 @@
 from tkinter import *
 from Director import Director
 
-
+def destroyW(frame, b):
+    frame.destroy()
+    b.pack()
+    return b
 
 if __name__ == '__main__':
-    #root = Tk()
-    #root.title("Time Manager")
-    #root.geometry("500x500")
+
     d = Director()
-    #root.mainloop()
+# frames place in specified x-y rel 0.3, 0.1, 0.6
+    #sub frame1, 2 place
+    # task list grid
+
+
