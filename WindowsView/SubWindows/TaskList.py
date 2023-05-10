@@ -46,7 +46,7 @@ class TaskList:
 
     # set dependency Fileloader class here
 
-    def __init__(self, rootFrame, counterManager):
+    def __init__(self, rootFrame, counterManager):#add method to Play/Stop button from outer space
         # self.taskRows = [None] * 5
         # IN file remove task
         self.countermanager = counterManager
